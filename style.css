@@ -6,100 +6,34 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-ul{
-    background-color: rgb(100,100,150, 0.9);
-    bottom:0;
-    position: fixed;
-    width:auto;
-    height: 5vw;
-    border-radius: 50%;
-    list-style: none;
-    display: inline;
-    text-align: center;
-    margin: 10px 10px;
-    padding:10px;
-    right: 0;
-    
-}
-
-li{
-    display: inline;
-}
-
-a img{
-    height: 100%;
-    width: auto;
-}
-
-h1{
-    margin: 0 5vw;
-    margin-top: 2vw;
-}
 .container{
     border-radius: 10px;
-    background-color: rgb(20,20,40);
+    background-color: rgb(20, 20, 40);
     padding: 10px;
-}
-.container.green{
-    border: 3px greenyellow solid;
 }
 
 .game{
-    padding: 1vw;
-    display: block;
-    background-color: rgba(100, 100, 150, 0.5);
-    border-radius: 10px;
-    display: inline-block;
+    padding: 20px;
+    overflow: hidden;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gamescreed.com%2Fwp-content%2Fuploads%2F2020%2F08%2FGTAOnline.jpg&f=1&nofb=1&ipt=c93f9efd48b63975c5a819e83c23c7894544f995461caccb170631246c09088d&ipo=imagesw);
+    text-align: center;
 }
 
-.game h2{
-    margin: 0 1vw;
-}
 .game p{
-    margin: 0 1vw;
-    color: greenyellow;
-    margin-top: 1vh;
-}
-
-.game img{
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 5px 0;
-
-}
-
-.game .subcard{
-    margin: 5px;
+    color: black;
     font-weight: bold;
+    text-transform: uppercase;
+    bottom: 0;
+    font-size: 100px;
 }
 
-.desc{
-    border: 2px rgb(100, 100, 150, 0.5) solid;
+.game a{
+    background-color: greenyellow;
+    border: 2px rgba(0, 128, 0, 0.2) solid;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
     border-radius: 10px;
-    display: inline-block;
-    width: 50%;
-    background-color: rgb(100, 100, 150, 0.5);
-    padding: 10px;
-}
-
-.buy{
-    border: 2px rgb(100, 100, 150, 0.5) solid;
-    background-color: rgb(100, 100, 150, 0.5);
-    border-radius: 10px;
-    display: inline;
-    float: right;
-    padding: 10px;
-}
-
-.buy a{
-    display: block;
     text-decoration: none;
-    background-color: rgb(50, 255, 50, 0.8);
-    border: 2px rgb(100, 100, 100, 0.5) solid;
-    color: white;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 10px;
 }
